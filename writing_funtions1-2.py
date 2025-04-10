@@ -3,8 +3,8 @@
 def main (): #def es la palabra clave para definir una función en Python. 
     #main() es el nombre de la función principal. No recibe parámetros en este caso. 
     # Los dos puntos : indican que el bloque de código que sigue pertenece a esta función.
-    end = float (input ("give me your final odometer in milles: "))
     start = float (input ("give me your inicial odometer in milles: "))
+    end = float (input ("give me your final odometer in milles: "))
     gallons = float (input ("give me the gallons: "))
     
     mpg = miles_per_gallon (end, start, gallons) #Aquí llamamos a la función miles_per_gallon() y le pasamos los tres valores obtenidos (end, start, gallons).
