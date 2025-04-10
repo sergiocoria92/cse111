@@ -48,6 +48,8 @@ def main():
             result_var.set("")
             status_var.set("")
 
+
+
         # Botones
         calc_button = tk.Button(root, text="Calcular", command=calculate)
         calc_button.grid(row=2, column=0, padx=10, pady=10)
